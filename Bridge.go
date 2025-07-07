@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//桥接模式，接口作为字段，感觉有点鸡肋
+//桥接模式，接口作为字段
 
 type Color interface {
 	printColor()

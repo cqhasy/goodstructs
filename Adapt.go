@@ -11,7 +11,7 @@ func (r *LegacyRectangle) Display(x1, y1, x2, y2 int) {
 	fmt.Printf("LegacyRectangle: Point1(%d, %d), Point2(%d, %d)\n", x1, y1, x2, y2)
 }
 
-// Shape 统一接口
+// FShape 统一接口
 type Shape interface {
 	Draw(x, y, width, height int)
 }
